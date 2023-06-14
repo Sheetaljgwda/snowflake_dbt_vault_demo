@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_testing
+    database: dbt_testing
+    schema: public
+    tables:
+     - name: revenue
+     - name: account
+     - name: product
