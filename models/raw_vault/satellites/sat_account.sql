@@ -1,7 +1,7 @@
 {%- set source_model = "v_stg_account" -%}
 {%- set src_pk = "ACCOUNT_PK" -%}
 {%- set src_hashdiff = "ACCOUNT_HASHDIFF" -%}
-{%- set src_payload = ["ACCOUNT_NAME", "SOURCE_ACCOUNT_ID"] -%}
+{%- set src_payload = ["ACCOUNT_ID","ACCOUNT_NAME", "SOURCE_ACCOUNT_ID"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LDTS" -%}
 {%- set src_source = "RECORD_SOURCE" -%}

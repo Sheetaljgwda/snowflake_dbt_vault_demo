@@ -1,6 +1,6 @@
-{%- set source_model = "v_stg_account"   -%}
-{%- set src_pk = "ACCOUNT_PK"          -%}
-{%- set src_nk = ["ACCOUNT_ID","SOURCE_ACCOUNT_ID"]          -%}
+{%- set source_model = "v_stg_product"   -%}
+{%- set src_pk = "PRODUCT_PK"          -%}
+{%- set src_nk = "PRODUCT_HK"          -%}
 {%- set src_ldts = "LDTS"      -%}
 {%- set src_source = "RECORD_SOURCE"    -%}
 

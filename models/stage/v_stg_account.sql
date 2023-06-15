@@ -4,12 +4,11 @@ derived_columns:
   RECORD_SOURCE: '!ACCOUNT_STAGE'
 hashed_columns:
   ACCOUNT_PK: 'ACCOUNT_ID'
-  SA_PK: 'SOURCE_ACCOUNT_ID'
   ACCOUNT_HASHDIFF:
     is_hashdiff: true
     columns:
-      - 'ACCOUNT_ID'
       - 'ACCOUNT_NAME'
+
 {%- endset -%}
 
 {% set metadata_dict = fromyaml(yaml_metadata) %}

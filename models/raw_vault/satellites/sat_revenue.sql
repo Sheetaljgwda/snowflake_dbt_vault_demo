@@ -1,7 +1,7 @@
 {%- set source_model = "v_stg_revenue" -%}
 {%- set src_pk = "REVENUE_PK" -%}
 {%- set src_hashdiff = "REVENUE_HK" -%}
-{%- set src_payload = ["ACCOUNT_PK","DATE","REVENUE_AMT_USD","REVENUE_AMT_LCL"] -%}
+{%- set src_payload = ["REVENUE_ID","ACCOUNT_ID","PRODUCT_ID","DATE","REVENUE_AMT_USD","REVENUE_AMT_LCL"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LDTS" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
