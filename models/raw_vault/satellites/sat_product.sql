@@ -1,7 +1,7 @@
 {%- set source_model = "v_stg_product" -%}
 {%- set src_pk = "PRODUCT_PK" -%}
 {%- set src_hashdiff = "PRODUCT_HK" -%}
-{%- set src_payload = ["PRODUCT_NAME", "PRODUCT_DESC"] -%}
+{%- set src_payload = ["PRODUCT_ID","PRODUCT_NAME", "PRODUCT_DESC","CATEGORY"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LDTS" -%}
 {%- set src_source = "RECORD_SOURCE" -%}

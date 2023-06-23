@@ -60,4 +60,10 @@ models:
       satellites:
         tags:
           - 'sat'
+    business_vault:
+      materialized: view
+      schema: BUSINESS_VAULT
+      tags: BV
+
+
 
